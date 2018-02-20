@@ -48,3 +48,8 @@ end
 gem 'pry-rails'
 gem 'compass-rails','~> 2.0'
 gem 'sprockets', '2.11.0'
+gem "heroku-api", "0.3.18"
+
+group :production do
+  gem 'rails_12factor'
+end
