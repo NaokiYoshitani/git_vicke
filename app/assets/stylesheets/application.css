@@ -178,12 +178,13 @@ display: none; /* 表示形式（なし） */
 
 .wrapper{
     background-color: #fbf6f1;
-    height:3000px;
+    /*height:3000px;*/
+    /*margin-bottom:40px;*/
 }
 .contents{
     padding: 20px 0 10px;
     width:880px;
-    height:3000px;
+    /*height:3000px;*/
     margin:0 auto;
     background-color:white;
 }
@@ -204,3 +205,14 @@ min-height: 1px;
 /*  background-color: red;*/
 /*}*/
 
+/* --- フッタ --- */
+.footer {
+
+padding: 20px 0; /* フッタのパディング（上下、左右） */
+background-color: #e4e0da; /* フッタの背景色 */
+}
+.address {
+font-style: normal;
+text-align: center;
+line-height: 140%; /* 行の高さ */
+}
